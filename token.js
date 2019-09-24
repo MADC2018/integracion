@@ -24,27 +24,18 @@ function token() {
                   success: function (data2) {
                       //inicia token
                       console.log("el user id" , data2.userid)
-                      
-                      $(document).ready(function () {
-                        $.ajax({
-                      url: 'https://ingenieria.aulasvirtuales.udistrital.edu.co/webservice/rest/server.php?wstoken='+data.token+'&wsfunction=core_webservice_get_site_info&moodlewsrestformat=json',
-                      async: false,
-                      dataType: 'json',
-                      success: function (data2) {
-                          //inicia token
-                          console.log("el user id" , data2.userid)
-      
-      
+                     
+                            
                      //finaliza token
       
                   }
       
               });
-      
+            
       
           });
           //termina segunda funcion
-
+        
 
                //finaliza token
 
