@@ -85,6 +85,17 @@ lista.innerHTML +=
 '</div>';
 }; 
 
+function insertname(entrada){
+  var nombre= document.getElementById("nombre_usuario");
+  nombre.innerHTML += '<h3> Bienvenido '+entrada+'</h3>'
+ 
+ }
+function limpiar(){
+  var lista = document.getElementById("htmlins");
+  var nombre= document.getElementById("nombre_usuario");
+  lista.innerHTML = '' 
+  nombre.innerHTML =''
+}
 
 
 /*
